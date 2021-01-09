@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/profile_gradient">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="69dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Your Profile"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:text="Username:"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="50dp"/>
+
+
+        <TextView
+            android:id="@+id/usernameprofile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:hint="Username"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:text="Email:"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/emailprofile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:paddingLeft="10dp"
+            android:text="Chat"
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/imageChat"
+            android:layout_width="66dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_baseline_chat"
+            tools:ignore="VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/readme"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/ic_baseline_notes"
+            tools:ignore="VectorDrawableCompat"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Read Me"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/logoutbtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="logout"/>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

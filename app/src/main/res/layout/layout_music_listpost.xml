@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/musiclistpostimg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_launcher_background"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <TextView
+            android:id="@+id/musiclisttitle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/black_gradient"
+            android:text="TextView"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="205dp"
+            android:paddingLeft="5dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

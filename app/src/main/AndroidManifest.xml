@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.forum4all_1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Forum 4 All"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MessageActivity"></activity>
+        <activity android:name=".MainChatActivity" />
+        <activity android:name=".homebuttons.EduPostDetailActivity" />
+        <activity android:name=".homebuttons.FoodPostDetailActivity" />
+        <activity android:name=".homebuttons.GamesPostDetailActivity" />
+        <activity android:name=".homebuttons.MusicPostDetailActivity" />
+        <activity android:name=".homebuttons.NewsPostDetailActivity" />
+        <activity android:name=".homebuttons.TechPostDetailActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".IntroductionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".homebuttons.TechReport" />
+        <activity android:name=".homebuttons.NewsReport" />
+        <activity android:name=".homebuttons.MusicReport" />
+        <activity android:name=".homebuttons.EduReport" />
+        <activity android:name=".homebuttons.FoodReport" />
+        <activity android:name=".homebuttons.GamesReport" />
+        <activity android:name=".homebuttons.TechnologyActivity" />
+        <activity android:name=".homebuttons.NewsActivity" />
+        <activity android:name=".homebuttons.EducationActivity" />
+        <activity android:name=".homebuttons.FoodActivity" />
+        <activity android:name=".homebuttons.MusicActivity" />
+        <activity android:name=".homebuttons.GamesActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LoginActivity" />
+    </application>
+
+</manifest>

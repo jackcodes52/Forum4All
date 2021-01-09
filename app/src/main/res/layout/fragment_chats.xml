@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ChatsFragment">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Forum 4 All ChatRoom!"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developments are being done at the moment, however do enjoy chatting with the available users!"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/welcome"
+
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
+
+
